@@ -303,7 +303,7 @@ async def videoplay(client, m: Message):
             )
         else:
             await m.delete()
-            huehue = await m.reply("**ðŸ”Ž ᴘᴇɴᴄᴀʀɪᴀɴ ʟᴀɢᴜ... ᴍᴏʜᴏɴ ʙᴇʀsᴀʙᴀʀ**")
+            huehue = await m.reply("**✧ ᴘᴇɴᴄᴀʀɪᴀɴ ʟᴀɢᴜ... ᴍᴏʜᴏɴ ʙᴇʀsᴀʙᴀʀ**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             Q = 720
