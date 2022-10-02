@@ -17,18 +17,18 @@ from config import HNDLR, bot, call_py
 from MusicUserbot.helpers.queues import QUEUE, add_to_queue, get_queue
 
 AMBILFOTO = [
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
-    "https://telegra.ph/file/613f681a511feb6d1b186.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
+    "https://telegra.ph/file/6da47cc743221a34232b0.jpg",
 ]
 
 IMAGE_THUMBNAIL = random.choice(AMBILFOTO)
