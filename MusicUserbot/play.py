@@ -172,14 +172,14 @@ async def play(client, m: Message):
 
     else:
         if len(m.command) < 2:
-            await m.reply("Balas ke File Audio atau berikan sesuatu untuk Pencarian")
+            await m.reply("ʙᴀʟᴀs ᴋᴇ ꜰɪʟᴇ ᴀᴜᴅɪᴏ ᴀᴛᴀᴜ ʙᴇʀɪᴋᴀɴ sᴇsᴜᴀᴛᴜ ᴜɴᴛᴜᴋ ᴘᴇɴᴄᴀʀɪᴀɴ")
         else:
             await m.delete()
-            huehue = await m.reply("**✧ Sedang Mencari Lagu... Mohon Bersabar**")
+            huehue = await m.reply("**✧ sᴇᴅᴀɴɢ ᴍᴇɴᴄᴀʀɪ ʟᴀɢᴜ... ᴍᴏʜᴏɴ ʙᴇʀsᴀʙᴀʀ**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
-                await huehue.edit("`Tidak Menemukan Apapun untuk Kueri yang Diberikan`")
+                await huehue.edit("`ᴛɪᴅᴀᴋ ᴍᴇɴᴇᴍᴜᴋᴀɴ ᴀᴘᴀᴘᴜɴ ᴜɴᴛᴜᴋ ᴋᴜᴇʀɪ ʏᴀɴɢ ᴅɪʙᴇʀɪᴋᴀ`")
             else:
                 songname = search[0]
                 url = search[1]
