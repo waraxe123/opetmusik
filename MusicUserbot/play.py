@@ -122,7 +122,7 @@ async def play(client, m: Message):
     if replied:
         if replied.audio or replied.voice:
             await m.delete()
-            huehue = await replied.reply("**✧ Memproses Request..**")
+            huehue = await replied.reply("**✧ ᴍᴇᴍᴘʀᴏsᴇs ʀᴇǫᴜᴇsᴛ..**")
             dl = await replied.download()
             link = replied.link
             if replied.audio:
@@ -139,7 +139,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
+                    photo="https://telegra.ph/file/6da47cc743221a34232b0.jpg",
                     caption=f"""
 **▶ ʟᴀɢᴜ ᴅɪ ᴀɴᴛʀɪᴀɴ ᴋᴇ** `{pos}`
 🏷 **ᴊᴜᴅᴜʟ:** [{songname}]({link})
@@ -160,7 +160,7 @@ async def play(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
+                    photo="https://telegra.ph/file/6da47cc743221a34232b0.jpg",
                     caption=f"""
 **▶ ᴍᴜʟᴀɪ ᴍᴇᴍᴜᴛᴀʀ ʟᴀɢᴜ**
 🏷 **ᴊᴜᴅᴜʟ:** [{songname}]({link})
@@ -236,7 +236,7 @@ async def videoplay(client, m: Message):
     if replied:
         if replied.video or replied.document:
             await m.delete()
-            huehue = await replied.reply("**✧ Memproses Video....**")
+            huehue = await replied.reply("**✧ ᴍᴇᴍᴘʀᴏsᴇs ᴠɪᴅᴇᴏ....**")
             dl = await replied.download()
             link = replied.link
             if len(m.command) < 2:
@@ -263,7 +263,7 @@ async def videoplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
+                    photo="https://telegra.ph/file/6da47cc743221a34232b0.jpg",
                     caption=f"""
 **▶ ᴠɪᴅᴇᴏ ᴅɪ ᴀɴᴛʀɪᴀɴ ᴋᴇ {pos}
 🏷️ ᴊᴜᴅᴜʟ: [{songname}]({link})
@@ -287,7 +287,7 @@ async def videoplay(client, m: Message):
                 await huehue.delete()
                 # await m.reply_to_message.delete()
                 await m.reply_photo(
-                    photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
+                    photo="https://telegra.ph/file/6da47cc743221a34232b0.jpg",
                     caption=f"""
 **▶ ᴍᴜʟᴀɪ ᴍᴇᴍᴜᴛᴀʀ ᴠɪᴅᴇᴏ
 🏷️ ᴊᴜᴅᴜʟ: [{songname}]({link})
@@ -395,7 +395,7 @@ async def playfrom(client, m: Message):
                     add_to_queue(chat_id, songname, location, link, "Audio", 0)
                     # await m.reply_to_message.delete()
                     await m.reply_photo(
-                        photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
+                        photo="https://telegra.ph/file/6da47cc743221a34232b0.jpg",
                         caption=f"""
 **▶ ᴍᴜʟᴀɪ ᴍᴇᴍᴜᴛᴀʀ ʟᴀɢᴜ ᴅᴀʀɪ {chat}
 🏷️ ᴊᴜᴅᴜʟ: [{songname}]({link})
