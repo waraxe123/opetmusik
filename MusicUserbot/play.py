@@ -141,11 +141,11 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
                     caption=f"""
-**▶ Lagu Di Antrian Ke** `{pos}`
-🏷 **Judul:** [{songname}]({link})
-⏱️ **Duration:** `{duration}`
-💡 **Status:** `Playing`
-🎧 **Permintaan:** {m.from_user.mention}
+**▶ ʟᴀɢᴜ ᴅɪ ᴀɴᴛʀɪᴀɴ ᴋᴇ** `{pos}`
+🏷 **ᴊᴜᴅᴜʟ:** [{songname}]({link})
+⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`
+💡 **sᴛᴀᴛᴜs:** `Playing`
+🎧 **ᴘᴇʀᴍɪɴᴛᴀᴀɴ:** {m.from_user.mention}
 """,
                 )
             else:
@@ -162,11 +162,11 @@ async def play(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
                     caption=f"""
-**▶ Mulai Memutar Lagu**
-🏷 **Judul:** [{songname}]({link})
-⏱️ **Duration:** `{duration}`
-💡 **Status:** `Playing`
-🎧 **Atas Permintaan:** {m.from_user.mention}
+**▶ ᴍᴜʟᴀɪ ᴍᴇᴍᴜᴛᴀʀ ʟᴀɢᴜ**
+🏷 **ᴊᴜᴅᴜʟ:** [{songname}]({link})
+⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`
+💡 **sᴛᴀᴛᴜs:** `ᴘʟᴀʏɪɴɢ`
+🎧 **ᴀᴛᴀs ᴘᴇʀᴍɪɴᴛᴀᴀɴ:** {m.from_user.mention}
 """,
                 )
 
@@ -195,11 +195,11 @@ async def play(client, m: Message):
                         await m.reply_photo(
                             photo=f"{IMAGE_THUMBNAIL}",
                             caption=f"""
-**▶ Lagu Di Antrian Ke** `{pos}`
-🏷 **Judul:** [{songname}]({url})
-⏱️ **Duration:** `{duration}`
-💡 **Status:** `Playing`
-🎧 **Atas Permintaan:** {m.from_user.mention}
+**▶ ʟᴀɢᴜ ᴅɪ ᴀɴᴛʀɪᴀɴ ᴋᴇ** `{pos}`
+🏷 **ᴊᴜᴅᴜʟ:** [{songname}]({url})
+⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`
+💡 **sᴛᴀᴛᴜs:** `ᴘʟᴀʏɪɴɢ`
+🎧 **ᴀᴛᴀs ᴘᴇʀᴍɪɴᴛᴀᴀɴ:** {m.from_user.mention}
 """,
                         )
                     else:
@@ -217,11 +217,11 @@ async def play(client, m: Message):
                             await m.reply_photo(
                                 photo=f"{IMAGE_THUMBNAIL}",
                                 caption=f"""
-**▶ Mulai Memutar Lagu**
-🏷️ **Judul:** [{songname}]({url})
-⏱️ **Duration** `{duration}`
-💡 **Status:** `Playing`
-🎧 **Atas Permintaan:** {m.from_user.mention}
+**▶ ᴍᴜʟᴀɪ ᴍᴇᴍᴜᴛᴀʀ ʟᴀɢᴜ**
+🏷️ **ᴊᴜᴅᴜʟ:** [{songname}]({url})
+⏱️ **ᴅᴜʀᴀᴛɪᴏɴ** `{duration}`
+💡 **sᴛᴀᴛᴜs:** `ᴘʟᴀʏɪɴɢ`
+🎧 **ᴀᴛᴀs ᴘᴇʀᴍɪɴᴛᴀᴀɴ:** {m.from_user.mention}
 """,
                             )
                         except Exception as ep:
@@ -265,10 +265,10 @@ async def videoplay(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
                     caption=f"""
-**▶ Video Di Antrian Ke {pos}
-🏷️ Judul: [{songname}]({link})
-💡 Status: Playing
-🎧 Atas Permintaan: {m.from_user.mention}**
+**▶ ᴠɪᴅᴇᴏ ᴅɪ ᴀɴᴛʀɪᴀɴ ᴋᴇ {pos}
+🏷️ ᴊᴜᴅᴜʟ: [{songname}]({link})
+💡 sᴛᴀᴛᴜs: ᴘʟᴀʏɪɴɢ
+🎧 ᴀᴛᴀs ᴘᴇʀᴍɪɴᴛᴀᴀɴ: {m.from_user.mention}**
 """,
                 )
             else:
@@ -289,10 +289,10 @@ async def videoplay(client, m: Message):
                 await m.reply_photo(
                     photo="https://telegra.ph/file/613f681a511feb6d1b186.jpg",
                     caption=f"""
-**▶ Mulai Memutar Video
-🏷️ Judul: [{songname}]({link})
-💡 Status: Playing
-🎧 Atas permintaan: {m.from_user.mention}**
+**▶ ᴍᴜʟᴀɪ ᴍᴇᴍᴜᴛᴀʀ ᴠɪᴅᴇᴏ
+🏷️ ᴊᴜᴅᴜʟ: [{songname}]({link})
+💡 sᴛᴀᴛᴜs: ᴘʟᴀʏɪɴɢ
+🎧 ᴀᴛᴀs ᴘᴇʀᴍɪɴᴛᴀᴀɴ: {m.from_user.mention}**
 """,
                 )
 
@@ -327,11 +327,11 @@ async def videoplay(client, m: Message):
                         await m.reply_photo(
                             photo=f"{IMAGE_THUMBNAIL}",
                             caption=f"""
-**▶ Video Di Antrian Ke** `{pos}`
-🏷️ **Judul:** [{songname}]({url})
-⏱️ **Duration:** `{duration}`
-💡 **Status:** `Playing`
-🎧 **Atas Permintaan:** {m.from_user.mention}
+**▶ ᴠɪᴅᴇᴏ ᴅɪ ᴀɴᴛʀɪᴀɴ ᴋᴇ** `{pos}`
+🏷️ **ᴊᴜᴅᴜʟ:** [{songname}]({url})
+⏱️ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`
+💡 **sᴛᴀᴛᴜs:** `ᴘʟᴀʏɪɴɢ`
+🎧 **ᴀᴛᴀs ᴘᴇʀᴍɪɴᴛᴀᴀɴ:** {m.from_user.mention}
 """,
                         )
                     else:
